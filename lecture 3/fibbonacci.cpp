@@ -11,7 +11,8 @@ int main(){
         next=first+second;
         first=second;
         second=next;
-        cout<<second<<"\t";
+        cout<<next<<"\t";
     }
+    cout<<endl;
     return 0;
 }
